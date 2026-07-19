@@ -613,6 +613,37 @@ section {
   font-size: 0.95rem;
 }
 
+.education-image {
+  width: 100%;
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.education-pdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background: var(--surface-2);
+  border: 1px dashed rgba(56, 189, 248, 0.35);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.education-pdf:hover {
+  background: rgba(56, 189, 248, 0.08);
+  border-color: var(--primary);
+}
+
+.education-icon {
+  font-size: 2rem;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .about-grid,
