@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  const revealElements = document.querySelectorAll('.project-card, .skill-category, .demo-card, .stat');
+  const revealElements = document.querySelectorAll('.project-card, .skill-category, .demo-card, .stat, .experience-card, .education-card');
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
